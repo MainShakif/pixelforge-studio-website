@@ -1,4 +1,5 @@
-@media screen and (min-width: 250px) and (max-width: 800px) {
+@media screen and (min-width: 0px) and (max-width: 800px) {
+  /* NAVBAR responsive style */
   .nav-container {
     margin: 0 20px;
   }
@@ -10,5 +11,15 @@
   }
   .btn {
     padding: 6px;
+  }
+  /* hero/banner responsive style */
+  .Banner-section h1 {
+    margin-bottom: 5px;
+    font-weight: 500;
+    font-size: 22px;
+  }
+  .Banner-section p {
+    font-weight: 400;
+    font-size: 10px;
   }
 }
