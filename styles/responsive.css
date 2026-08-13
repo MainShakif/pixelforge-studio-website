@@ -1,9 +1,9 @@
 @media screen and (min-width: 0px) and (max-width: 800px) {
   /* NAVBAR responsive style */
-  .nav-container {
+  .nav_content {
     margin: 0 20px;
   }
-  .nav-container h2 {
+  .nav_content h2 {
     font-size: 20px;
   }
   .nav-lists {
@@ -13,13 +13,27 @@
     padding: 6px;
   }
   /* hero/banner responsive style */
+  .Banner-section {
+    background:
+      linear-gradient(#140f0ca6, #140f0cbf), url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* height: 10vh; */
+  }
   .Banner-section h1 {
     margin-bottom: 5px;
     font-weight: 500;
-    font-size: 22px;
+    font-size: 20px;
   }
   .Banner-section p {
     font-weight: 400;
     font-size: 10px;
+  }
+
+  /* main section responsive code */
+  .technologies_cards_container {
+    display: grid;
+    grid-template-columns: 1fr;
   }
 }

@@ -16,9 +16,8 @@
   color: white;
 }
 
-header {
-  background-color: #1a1a2e;
-}
+/* header {
+} */
 
 main .technologies_section {
   background-color: #f2f2f2;
@@ -26,6 +25,9 @@ main .technologies_section {
 /* navbar styles */
 .nav-container {
   color: white;
+  background-color: #1a1a2e;
+}
+.nav_content {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -180,4 +182,3 @@ footer {
 /* { 
   margin-bottom: 15px;
 } */
-
