@@ -1,0 +1,182 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* google font: Open sans */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+.google-font {
+  font-family: "Open Sans", sans-serif;
+}
+
+.btn {
+  background-color: #ff6b35;
+  padding: 8px 16px;
+  border: none;
+  color: white;
+}
+
+header {
+  background-color: #1a1a2e;
+}
+
+main .technologies_section {
+  background-color: #f2f2f2;
+}
+/* navbar styles */
+.nav-container {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  max-width: 1450px;
+  margin: auto;
+  padding: 10px 0;
+}
+.nav-container h2 .text-orange {
+  color: #ff6b35;
+}
+
+.nav-lists {
+  display: flex;
+  gap: 30px;
+
+  list-style: none;
+}
+.nav-lists li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+/* banner/hero section styles */
+.Banner-section {
+  background: linear-gradient(#140f0ca6, #140f0cbf), url(../images/banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Banner_content {
+  text-align: center;
+  color: white;
+}
+.Banner-section h1 {
+  margin-bottom: 11px;
+  font-weight: 700;
+}
+.Banner-section p {
+  font-weight: 400;
+}
+
+/* our services section styles */
+.heading_section {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.heading_section h3 {
+  font-weight: bold;
+  color: #333333;
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+.heading_section p {
+  font-weight: 400;
+  color: #666666;
+  font-size: 16px;
+}
+
+/** popup box style */
+.popupBox {
+  background-color: #ff6b35;
+  /* border: 4px solid black; */
+  text-align: center;
+  display: none;
+  padding: 7px;
+}
+.popupBox p {
+  color: black;
+}
+
+/* technologies section styles  */
+.technologies_cards_container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+
+  max-width: 1250px;
+  margin: 30px auto;
+  padding: 20px;
+}
+
+.technology_card {
+  background-color: white;
+  /* border-radius: 15px; */
+}
+.technology_card img {
+  /* border-top-left-radius: 15px;
+  border-top-right-radius: 15px; */
+  width: 100%;
+  height: 260px;
+}
+
+.technology_card h3 {
+  margin: 10px 15px 10px;
+}
+.technology_card p {
+  margin: 0 15px;
+}
+
+.technology_card button {
+  background-color: black;
+  color: white;
+  padding: 4px 16px;
+  border: none;
+  margin: 10px 15px 10px;
+}
+
+/* footer styles */
+footer {
+  background-color: #1a1a2e;
+  color: white;
+}
+
+.footer_container {
+  max-width: 1450px;
+  margin: 30px auto;
+  padding: 40px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer_container ul {
+  list-style: none;
+}
+
+.footer_container ul li a {
+  color: #cccccc;
+  text-decoration: none;
+}
+
+.footer_label {
+  margin-bottom: 15px;
+}
+.footer_container .quick_links ul li,
+.footer_container .follow_us ul li,
+.footer_container .contact_info ul li {
+  margin-bottom: 18px;
+}
+
+/* .footer_container .contact_info .footer_label {
+  margin-bottom: 20px;
+}
+/* { 
+  margin-bottom: 15px;
+} */
