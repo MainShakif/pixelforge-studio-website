@@ -1,0 +1,14 @@
+@media screen and (min-width: 250px) and (max-width: 800px) {
+  .nav-container {
+    margin: 0 20px;
+  }
+  .nav-container h2 {
+    font-size: 20px;
+  }
+  .nav-lists {
+    display: none;
+  }
+  .btn {
+    padding: 6px;
+  }
+}
