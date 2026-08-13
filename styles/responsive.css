@@ -36,4 +36,24 @@
     display: grid;
     grid-template-columns: 1fr;
   }
+
+  /* footer responsive style */
+  .footer_container {
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 90%;
+    margin: auto;
+  }
+  .quick_links,
+  .contact_info,
+  .follow_us {
+    width: 70%;
+    text-align: center;
+  }
+  .quick_links,
+  .contact_info {
+    border-bottom: 1px solid whitesmoke;
+    margin-bottom: 15px;
+  }
 }

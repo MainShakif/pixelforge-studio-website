@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 /* google font: Open sans */
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
@@ -33,7 +34,7 @@ main .technologies_section {
   align-items: center;
 
   max-width: 1450px;
-  margin: auto;
+  margin: 0 auto;
   padding: 10px 0;
 }
 .nav-container h2 .text-orange {
@@ -113,17 +114,17 @@ main .technologies_section {
   gap: 30px;
 
   max-width: 1250px;
-  margin: 30px auto;
+  margin: 15px auto;
   padding: 20px;
 }
 
 .technology_card {
   background-color: white;
-  /* border-radius: 15px; */
+  border-radius: 15px;
 }
 .technology_card img {
-  /* border-top-left-radius: 15px;
-  border-top-right-radius: 15px; */
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
   width: 100%;
   height: 260px;
 }
@@ -151,8 +152,8 @@ footer {
 
 .footer_container {
   max-width: 1450px;
-  margin: 30px auto;
-  padding: 40px 0;
+  margin: 0px auto;
+  padding: 15px 5px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -175,10 +176,3 @@ footer {
 .footer_container .contact_info ul li {
   margin-bottom: 18px;
 }
-
-/* .footer_container .contact_info .footer_label {
-  margin-bottom: 20px;
-}
-/* { 
-  margin-bottom: 15px;
-} */
